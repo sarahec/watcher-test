@@ -23,7 +23,7 @@
     },
     "test": {
       "executor": "@nx/vite:test",
-      "outputs": ["coverage/watcher-test"],
+      "outputs": ["{projectRoot}/coverage/watcher-test"],
       "options": {
         "passWithNoTests": true,
         "reportsDirectory": "coverage/watcher-test"
